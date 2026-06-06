@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="bs">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Butik IN</title>
+    </head>
+    <body>
+        <h1>Butik IN</h1>
+        <p>Zapratite naše društvene mreže</p>
+        <div class="socialMediaContainer">
+            <button id="instagram">
+                <img src="https://img.icons8.com/color/48/000000/instagram-new.png">
+            </button>
+            <button id="facebook">
+                <img src="https://img.icons8.com/color/48/000000/facebook-new.png">
+            </button>
+            <button id="tiktok">
+                <img src="https://img.icons8.com/color/48/000000/tiktok.png">
+            </button>
+        </div>
+    </body>
+    <script>
+        const instagram = document.getElementById("instagram");
+        const facebook = document.getElementById("facebook");
+        const tiktok = document.getElementById("tiktok");
+        instagram.addEventListener("click", () => {
+            window.open("https://www.instagram.com/butik_in_maglaj/", "_blank");
+        });
+        facebook.addEventListener("click", () => {
+            window.open("https://www.facebook.com/tarik.ahmetbegovic.9/", "_blank");
+        });
+        tiktok.addEventListener("click", () => {
+            window.open("https://www.tiktok.com/@butik.in.maglaj/", "_blank");
+        });
+    </script>
+</html>
